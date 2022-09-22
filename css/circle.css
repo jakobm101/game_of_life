@@ -1,0 +1,23 @@
+.circle {
+  position: relative;
+  top:   -25px;
+  float:  right;
+  width:  30px;
+  height: 30px;
+  
+  background-color: rgb(30,235,105);
+  
+  border-radius: 100%;
+}
+
+#circly {
+  position: relative;
+  top:   -25px;
+  float:  right;
+  width:  30px;
+  height: 30px;
+  
+  background-color: rgb(30,235,105);
+  
+  border-radius: 100%;
+}

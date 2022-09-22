@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Hide scrollbars */
+ /* Hide scrollbar for Chrome, Safari and Opera */
+html::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+html {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+} 
+
+/* p5 thing */
+canvas {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  color: rgb(30,235,105);
+  background-color: rgba(255,255,255,.7);
+  border: none;
+  border: 1px solid rgb(30,235,105); /**/
+  font-size: 14px;
+  padding: 3px 5px 0px 5px;
+}
+
+button:hover {
+  color: rgb(30,235,105);
+  font-weight: bold;
+}
+
+#title{
+  background: RGB(30,235,105);
+  position: absolute;
+  top:50%;
+  right:0;
+  z-index: 100;
+  color: white;
+  font-size: 30px;
+  padding: 5px 10px 3px 10px;
+}
+
+#menu{
+  position: fixed;
+  top:50px;
+  right:0px;
+  z-index: 100;
+  color: white;
+  
+}
+
+#menu .item{
+  background: RGB(30,235,105);
+  font-size: 20px;
+  padding: 5px 10px 3px 10px;
+  margin-bottom: 5px;
+}
+
+#menu .item a{
+  color: white;
+}
+
+#menu .item a:hover{
+  color: black;
+}

@@ -1,0 +1,17 @@
+footer {
+  background-color: rgb(50,50,50);  
+  color: rgb(123,123,123);
+  text-align: right;
+  padding: 10px 2% 10px 5%;
+  font-size: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+
+footer a {
+    color: rgb(123,123,123);
+}
+
+footer a:hover {
+    color: rgb(255,255,255);
+}

@@ -1,0 +1,23 @@
+#projects {
+  width: 90%;
+  min-height: 90vh;
+  background:  white;
+  color: RGB(30,235,105);
+  padding: 10px 5% 10px 5%;
+ 
+}
+
+#projects .container {
+  width: 70vw;   
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2vw;
+  row-gap: 2vw;
+  padding-bottom: 20px;
+}
+
+#projects .project img {
+  object-fit: cover;
+  width: 35vw;
+  height: 35vw;
+}
