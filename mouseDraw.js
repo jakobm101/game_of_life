@@ -1,8 +1,8 @@
   
 function mouseDraw(mouseX, mouseY, w, columns, rows, width, height){  
   // Allow drawing with mouse
-  let mouseCellX = floor(mouseX / w);
-  let mouseCellY = floor(mouseY / w);
+  let mouseCellX = floor((mouseX+(0.5*w)) / w);;
+  let mouseCellY = floor((mouseY+(0.5*w)) / w);
 
   //mouse press
   if (mouseIsPressed === true) {

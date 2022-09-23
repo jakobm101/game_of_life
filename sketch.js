@@ -37,7 +37,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   background(color3);
   //calculate columns and rows
-  columns = floor(width / w);
+  columns = floor(width  / w);
   rows =    floor(height / w);
 
   // Align html divs with grid
@@ -50,15 +50,11 @@ function setup() {
   button.mousePressed(pausing);
   paused = 0;
 
-  //setup basics
-
-
-
+  // create 2D arrays
   board = createBoard(columns,rows);
   next  = createBoard(columns,rows);
   // Initialize the game of life    
   initializeBoard(board,columns,rows,color1,color2,color3,color4)
-
 }
 
 function draw() {
@@ -66,9 +62,9 @@ function draw() {
   let boards = new Array;
   boards.push(board,next);
   if (paused == 0) { 
-    boards = generateBoard(board, next, columns, rows);
+    let boards = generateBoard(board, next, columns, rows);
     board = boards[0];
-    next = boards[1];
+    next =  boards[1];
   }
 
   // Logo Drawing
@@ -77,7 +73,7 @@ function draw() {
   // Drawing with mouse
   mouseDraw(mouseX, mouseY, w, columns, rows, width, height);
   
-  // Create "pixel" accordig to generated board
+  // Fill cells accordig to generated board
   for (i = 0; i < columns; i++) {
     for (j = 0; j < rows; j++) {
       if (board[i][j][0] == 2) {
@@ -92,11 +88,11 @@ function draw() {
   }
 
   //HOVER Mouse on grid
-  let mCellX = floor(mouseX / w);
-  let mCellY = floor(mouseY / w);
   if (mouseX < width - w && mouseY < height - w && mouseX > w && mouseY > w) {
+    let mCellX = floor((mouseX+(0.5*w)) / w);
+    let mCellY = floor((mouseY+(0.5*w)) / w);
     fill(color2);
-    circle(mCellX * w, mCellY * w, w);
+    circle(((mCellX) * w), ((mCellY) * w ), w);
   }
 }
 
