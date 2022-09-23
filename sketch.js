@@ -84,6 +84,10 @@ function draw() {
   // Logo Drawing
   jplusplus(columns, rows);
 
+
+  mouseDraw(mouseX, mouseY, w, columns, rows, width, height);
+  
+  /*
   // Allow drawing with mouse
   mouseCellX = floor(mouseX / w);
   mouseCellY = floor(mouseY / w);
@@ -104,6 +108,7 @@ function draw() {
       board[mouseCellX][mouseCellY][0] = 1;
     }
   }
+*/
 
   // Create "pixel" accordig to generated board
   for (i = 0; i < columns; i++) {
