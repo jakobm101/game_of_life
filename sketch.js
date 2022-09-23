@@ -1,24 +1,42 @@
+/* 
+GAME OF LIFE 
+a discrete system for creating a reductionist model of self-replication
+—Stanislav Ulam
+*/
+
 let w; 
 let resolution;
+
 let columns;
 let rows;
+
 let board;
 let next;
 
 //Mouse Position in cells
-let cellX;
-let cellY;
+let mouseCellX;
+let mouseCellY;
 
 //Pausing
 let button; //for pausing
 let paused;
 
+//Spawn 
+
 //Colors
 let color1;
 let color2;
+let color3;
 
 function setup() {
+  // OPTIONS
+  color1 = color(30, 235, 105);     //green
+  color2 = color(30, 235, 105, 77); //green alpha
+  color3 = (255);
+  color4 = (0);
   resolution = 4;
+  
+  // Calculations
   w = floor(width / resolution);
   createCanvas(windowWidth, windowHeight);
   //calculate columns and rows
@@ -31,11 +49,9 @@ function setup() {
     (w * (columns - 10.5)).toString() + "px";
 
   //set circly DIV to match size
-  document.getElementById("circly").style.width = w.toString() + "px";
-  document.getElementById("circly").style.height = w.toString() + "px";
+  document.getElementById("circly").style.width = (w*2).toString() + "px";
+  document.getElementById("circly").style.height = (w*2).toString() + "px";
 
-  color1 = color(30, 235, 105); //green
-  color2 = color(30, 235, 105, 77); //green translucent
 
   //Pause button
   button = createButton("⏵︎ PAUSE");
@@ -46,35 +62,32 @@ function setup() {
 
   //setup basics
 
-  cellX = floor(mouseX / w);
-  cellY = floor(mouseY / w);
+  mouseCellX = floor(mouseX / w);
+  mouseCellY = floor(mouseY / w);
 
-  background(255);
+  background(color3);
 
-  board = new Array(columns);
-  for (let i = 0; i < columns; i++) {
-    board[i] = new Array(rows);
-    for (let j = 0; j < rows; j++) board[i][j] = new Array(2);
-  }
-  next = new Array(columns);
-  for (let i = 0; i < columns; i++) {
-    next[i] = new Array(rows);
-    for (let j = 0; j < rows; j++) next[i][j] = new Array(2);
-  }
+  board = createBoard(columns,rows);
+  next  = createBoard(columns,rows);
+  // Initialize the game of life    
+  initializeBoard(board,columns,rows,color1,color2,color3,color4)
 
-  // Start the game of life
-  initialize();
 }
 
 function draw() {
   // GENERATE
-  if (paused == 0) {
-    generate();
+  let boards = new Array;
+  boards.push(board,next);
+  if (paused == 0) { 
+    boards = generateBoard(board, next, columns, rows);
+    board = boards[0];
+    next = boards[1];
   }
 
   /////// Logo Drawing
   let xxx = floor(columns / 2) - 5;
-  let yyy = floor(rows / 2) - 6;
+  let yyy = floor(rows    / 2) - 5;
+  
   board[xxx + 2][yyy + 0][0] = 2;
   board[xxx + 1][yyy + 0][0] = 2;
   board[xxx + 2][yyy + 1][0] = 2;
@@ -95,23 +108,23 @@ function draw() {
   board[xxx + 9][yyy + 3][0] = 2;
 
   // DRAWING CELLS
-  cellX = floor(mouseX / w);
-  cellY = floor(mouseY / w);
+  mouseCellX = floor(mouseX / w);
+  mouseCellY = floor(mouseY / w);
 
   //mouse press
   if (mouseIsPressed === true) {
     if (
       //exclude borders
-      cellX != 0 &&
-      cellY != 0 &&
-      cellX != columns - 1 &&
-      cellY != rows - 1 &&
+      mouseCellX != 0 &&
+      mouseCellY != 0 &&
+      mouseCellX != columns - 1 &&
+      mouseCellY != rows - 1 &&
       // just inside canvas
       mouseX < width &&
       mouseY < height
     ) {
       // activate clicked cell
-      board[cellX][cellY][0] = 1;
+      board[mouseCellX][mouseCellY][0] = 1;
     }
   }
 
@@ -119,11 +132,11 @@ function draw() {
   for (i = 0; i < columns; i++) {
     for (j = 0; j < rows; j++) {
       if (board[i][j][0] == 2) {
-        fill(0);
+        fill(color4);
       } else if (board[i][j][0] == 1) {
         fill(color1);
       } else {
-        fill(255, 255, 255);
+        fill(color3);
       }
       circle(i * w, j * w, w);
     }
@@ -132,35 +145,11 @@ function draw() {
   //HOVER Mouse on grid
   if (mouseX < width - w && mouseY < height - w && mouseX > w && mouseY > w) {
     fill(color2); ////
-    circle(cellX * w, cellY * w, w);
+    circle(mouseCellX * w, mouseCellY * w, w);
   }
 }
 
-function initialize() {
-  for (i = 0; i < columns; i++) {
-    for (j = 0; j < rows; j++) {
-      if (i == 0 || j == 0 || i == columns - 1 || j == rows - 1) {
-        fill(255);
-        board[i][j][0] = 0;
-      } else {
-        board[i][j][0] = floor(random(2));
-      }
-      if (board[i][j][0] == 1) {
-        fill(color1);
-      } else {
-        fill(255, 255, 255);
-      }
-
-      if (board[i][j][1] == 1) {
-        stroke(0);
-      } else {
-        stroke(255);
-      }
-      circle(i * w, j * w, w);
-    }
-  }
-}
-
+/*
 function generate() {
   for (x = 1; x < columns - 1; x++) {
     for (y = 1; y < rows - 1; y++) {
@@ -189,11 +178,12 @@ function generate() {
     }
   }
 
-  // Swap
+  // Swap old board to new board
   let temp = board;
   board = next;
   next = temp;
 }
+*/
 
 function pausing() {
   paused = !paused;
