@@ -2,7 +2,7 @@
   width: 90%;
   min-height: 90vh;
   background:  white;
-  color: RGB(30,235,105);
+  color: rgb(30,235,105);
   padding: 10px 5% 10px 5%;
  
 }
@@ -14,6 +14,10 @@
   column-gap: 2vw;
   row-gap: 2vw;
   padding-bottom: 20px;
+}
+
+#projects .project a:hover {
+  background-color:  rgb(30,235,105);
 }
 
 #projects .project img {

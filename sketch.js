@@ -74,7 +74,7 @@ function draw() {
 
   /////// Logo Drawing
   let xxx = floor(columns / 2) - 5;
-  let yyy = floor(rows / 2) - 5;
+  let yyy = floor(rows / 2) - 6;
   board[xxx + 2][yyy + 0][0] = 2;
   board[xxx + 1][yyy + 0][0] = 2;
   board[xxx + 2][yyy + 1][0] = 2;
