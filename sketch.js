@@ -13,10 +13,6 @@ let rows;
 let board;
 let next;
 
-//Mouse Position in cells
-let mouseCellX;
-let mouseCellY;
-
 //Pausing
 let button; //for pausing
 let paused;
@@ -27,22 +23,26 @@ let paused;
 let color1;
 let color2;
 let color3;
+let color4;
 
 function setup() {
   // OPTIONS
   color1 = color(30, 235, 105);     //green
   color2 = color(30, 235, 105, 77); //green alpha
-  color3 = (255);
-  color4 = (0);
+  color3 = (255);                   //white
+  color4 = (0);                     //black
   resolution = 4;
   
-  // Calculations
+  // Calculate cellsize
   w = floor(width / resolution);
+  // Create p5 canvas
   createCanvas(windowWidth, windowHeight);
+  background(color3);
   //calculate columns and rows
   columns = floor(width / w);
-  rows = floor(height / w);
+  rows =    floor(height / w);
 
+  // Align html divs with grid
   // Set title DIV to match grid
   document.getElementById("title").style.top = (w * 12.5).toString() + "px";
   document.getElementById("title").style.left =
@@ -62,10 +62,7 @@ function setup() {
 
   //setup basics
 
-  mouseCellX = floor(mouseX / w);
-  mouseCellY = floor(mouseY / w);
 
-  background(color3);
 
   board = createBoard(columns,rows);
   next  = createBoard(columns,rows);
@@ -123,47 +120,13 @@ function draw() {
   }
 
   //HOVER Mouse on grid
+  let mCellX = floor(mouseX / w);
+  let mCellY = floor(mouseY / w);
   if (mouseX < width - w && mouseY < height - w && mouseX > w && mouseY > w) {
     fill(color2); ////
-    circle(mouseCellX * w, mouseCellY * w, w);
+    circle(mCellX * w, mCellY * w, w);
   }
 }
-
-/*
-function generate() {
-  for (x = 1; x < columns - 1; x++) {
-    for (y = 1; y < rows - 1; y++) {
-      let neighbors = 0;
-      // Check neighbors
-      for (k = -1; k <= 1; k++) {
-        for (l = -1; l <= 1; l++) {
-          neighbors += board[x + k][y + l][0];
-        }
-      }
-
-      neighbors -= board[x][y][0];
-
-      // Rules of life
-      //reproduction
-      if (board[x][y][0] == 0 && neighbors == 3) {
-        next[x][y][0] = 1;
-      }
-      //lonely
-      else if (board[x][y][0] == 1 && neighbors < 2) {
-        next[x][y][0] = 0;
-      }
-      //too crowdy
-      else if (board[x][y][0] == 1 && neighbors > 3) [(next[x][y][0] = 0)];
-      else next[x][y][0] = board[x][y][0];
-    }
-  }
-
-  // Swap old board to new board
-  let temp = board;
-  board = next;
-  next = temp;
-}
-*/
 
 function pausing() {
   paused = !paused;
