@@ -75,7 +75,7 @@ function setup() {
 }
 
 function draw() {
-  // GENERATE
+  // GENERATE NEW BOARD
   let boards = new Array;
   boards.push(board,next);
   if (paused == 0) { 
@@ -84,30 +84,10 @@ function draw() {
     next = boards[1];
   }
 
-  /////// Logo Drawing
-  let xxx = floor(columns / 2) - 5;
-  let yyy = floor(rows    / 2) - 5;
-  
-  board[xxx + 2][yyy + 0][0] = 2;
-  board[xxx + 1][yyy + 0][0] = 2;
-  board[xxx + 2][yyy + 1][0] = 2;
-  board[xxx + 2][yyy + 2][0] = 2;
-  board[xxx + 2][yyy + 3][0] = 2;
-  board[xxx + 1][yyy + 4][0] = 2;
+  // Logo Drawing
+  jplusplus(columns, rows);
 
-  board[xxx + 5][yyy + 1][0] = 2;
-  board[xxx + 4][yyy + 2][0] = 2;
-  board[xxx + 5][yyy + 2][0] = 2;
-  board[xxx + 6][yyy + 2][0] = 2;
-  board[xxx + 5][yyy + 3][0] = 2;
-
-  board[xxx + 9][yyy + 1][0] = 2;
-  board[xxx + 8][yyy + 2][0] = 2;
-  board[xxx + 9][yyy + 2][0] = 2;
-  board[xxx +10][yyy + 2][0] = 2;
-  board[xxx + 9][yyy + 3][0] = 2;
-
-  // DRAWING CELLS
+  // Allow drawing with mouse
   mouseCellX = floor(mouseX / w);
   mouseCellY = floor(mouseY / w);
 
