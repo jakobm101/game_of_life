@@ -14,7 +14,6 @@ let board;
 let next;
 
 //Pausing
-let button; //for pausing
 let paused;
 
 //Colors
@@ -27,8 +26,8 @@ function setup() {
   // OPTIONS
   color1 = color(30, 235, 105);     //green
   color2 = color(30, 235, 105, 77); //green alpha
-  color3 = (255);                   //white
-  color4 = (0);                     //black
+  color3 = color(255);              //white
+  color4 = color(0);                //black
   resolution = 4;
   
   // Calculate cellsize
@@ -44,7 +43,7 @@ function setup() {
   divToGrid(w, columns); 
 
   //Pause button
-  button = createButton("⏵︎ PAUSE");
+  let button = createButton("⏵︎ PAUSE");
   button.position(0.5 * w, (rows - 1.5) * w);
   button.size(4 * w, w);
   button.mousePressed(function(){paused = !paused;});
