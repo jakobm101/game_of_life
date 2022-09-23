@@ -17,8 +17,6 @@ let next;
 let button; //for pausing
 let paused;
 
-//Spawn 
-
 //Colors
 let color1;
 let color2;
@@ -43,15 +41,7 @@ function setup() {
   rows =    floor(height / w);
 
   // Align html divs with grid
-  // Set title DIV to match grid
-  document.getElementById("title").style.top = (w * 12.5).toString() + "px";
-  document.getElementById("title").style.left =
-    (w * (columns - 10.5)).toString() + "px";
-
-  //set circly DIV to match size
-  document.getElementById("circly").style.width = (w*2).toString() + "px";
-  document.getElementById("circly").style.height = (w*2).toString() + "px";
-
+  divToGrid(w, columns); 
 
   //Pause button
   button = createButton("⏵︎ PAUSE");
@@ -84,32 +74,9 @@ function draw() {
   // Logo Drawing
   jplusplus(columns, rows);
 
-
+  // Drawing with mouse
   mouseDraw(mouseX, mouseY, w, columns, rows, width, height);
   
-  /*
-  // Allow drawing with mouse
-  mouseCellX = floor(mouseX / w);
-  mouseCellY = floor(mouseY / w);
-
-  //mouse press
-  if (mouseIsPressed === true) {
-    if (
-      //exclude borders
-      mouseCellX != 0 &&
-      mouseCellY != 0 &&
-      mouseCellX != columns - 1 &&
-      mouseCellY != rows - 1 &&
-      // just inside canvas
-      mouseX < width &&
-      mouseY < height
-    ) {
-      // activate clicked cell
-      board[mouseCellX][mouseCellY][0] = 1;
-    }
-  }
-*/
-
   // Create "pixel" accordig to generated board
   for (i = 0; i < columns; i++) {
     for (j = 0; j < rows; j++) {
@@ -128,7 +95,7 @@ function draw() {
   let mCellX = floor(mouseX / w);
   let mCellY = floor(mouseY / w);
   if (mouseX < width - w && mouseY < height - w && mouseX > w && mouseY > w) {
-    fill(color2); ////
+    fill(color2);
     circle(mCellX * w, mCellY * w, w);
   }
 }
