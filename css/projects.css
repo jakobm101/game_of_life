@@ -1,19 +1,18 @@
 #projects {
-  width: 90%;
+  width: 100%;
   min-height: 90vh;
   background:  white;
   color: rgb(30,235,105);
-  padding: 10px 5% 10px 5%;
  
 }
 
 #projects .overview {
+  padding: 10px 5% 20px 5%;
   width: 70vw;   
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 2vw;
   row-gap: 1vw;
-  padding-bottom: 20px;
 }
 
 #projects .thumb a:hover {
@@ -24,4 +23,31 @@
   object-fit: cover;
   width: 35vw;
   height: 35vw;
+}
+
+#projects .details .project{
+  border-top: 1px solid rgb(30,235,105);
+}
+
+#projects .details img {
+
+  object-fit: cover;
+  width: 100vw;
+  height: auto;
+}
+
+#projects .details h3 {
+  padding-left: 5%;
+}
+
+#projects #project3{
+  background-color: #222
+}
+
+#projects .video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 720px;
 }
