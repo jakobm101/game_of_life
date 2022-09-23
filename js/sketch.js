@@ -5,7 +5,7 @@ a discrete system for creating a reductionist model of self-replication
 */
 
 let w; 
-let resolution;
+const resolution = 4;
 
 let columns;
 let rows;
@@ -24,12 +24,12 @@ let color4;
 
 function setup() {
   // OPTIONS
+  
   color1 = color(30, 235, 105);     //green
   color2 = color(30, 235, 105, 77); //green alpha
   color3 = color(255);              //white
   color4 = color(0);                //black
-  resolution = 4;
-  
+
   // Calculate cellsize
   w = floor(width / resolution);
   // Create p5 canvas
@@ -88,11 +88,14 @@ function draw() {
 
   //HOVER Mouse on grid
   //show which cells are going to be activated
-  if (mouseX < width - 2*w && mouseY < height - 2*w && mouseX > w && mouseY > w) {
-    let mCellX = floor((mouseX+(0.5*w)) / w);
-    let mCellY = floor((mouseY+(0.5*w)) / w);
+  if (mouseX < width  - 2*w && 
+      mouseY < height - 2*w &&
+      mouseX > w && 
+      mouseY > w) {
+    let mouseCellX = calculateMouseCell(mouseX, w);
+    let mouseCellY = calculateMouseCell(mouseY, w);
     fill(color2);
-    circle(((mCellX) * w), ((mCellY) * w ), w);
+    circle(((mouseCellX) * w), ((mouseCellY) * w ), w);
   }
 }
 
