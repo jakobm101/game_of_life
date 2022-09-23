@@ -1,4 +1,4 @@
-function generateBoard(board, next, columns, rows) {
+function generateBoard() {
     for (x = 1; x < columns - 1; x++) {
       for (y = 1; y < rows - 1; y++) {
         let neighbors = 0;
@@ -30,9 +30,6 @@ function generateBoard(board, next, columns, rows) {
     let temp = board;
     board = next;
     next = temp;
-    let package = new Array;
-    package.push(board);
-    package.push(next);
-    return package;
+
 
 }

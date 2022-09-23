@@ -28,16 +28,16 @@ a {
 }
 
 button {
-  color: rgb(30,235,105);
+  color:             rgb(30,235,105);
   background-color: rgba(255,255,255,.7);
   border: none;
-  border: 1px solid rgb(30,235,105); /**/
+  border: 1px solid  rgb(30,235,105); 
   font-size: 14px;
   padding: 3px 5px 0px 5px;
 }
 
 button:hover {
-  color: rgb(30,235,105);
+  color:            rgb(0,0,0);
   font-weight: bold;
 }
 
@@ -55,7 +55,7 @@ button:hover {
 #menu{
   position: fixed;
   top:      50px;
-  right:    15px;
+  right:    5px;
   z-index:  100;
   color:   white;
   

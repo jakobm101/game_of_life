@@ -14,7 +14,7 @@ let board;
 let next;
 
 //Pausing
-let paused;
+let paused = 0;
 
 //Colors
 let color1;
@@ -27,8 +27,8 @@ function setup() {
   
   color1 = color(30, 235, 105);     //green
   color2 = color(30, 235, 105, 77); //green alpha
-  color3 = color(255);              //white
-  color4 = color(0);                //black
+  color3 = color(249);              //white
+  color4 = color(60);               //black
 
   // Calculate cellsize
   w = floor(width / resolution);
@@ -40,42 +40,35 @@ function setup() {
   rows =    floor(height / w);
 
   // Align html divs with grid
-  divToGrid(w, columns); 
+  divToGrid(); 
 
   //Pause button
   let button = createButton("⏵︎ PAUSE");
   button.position(0.5 * w, (rows - 1.5) * w);
   button.size(4 * w, w);
   button.mousePressed(function(){paused = !paused;});
-  paused = 0;
 
   // create 2D arrays
-  board = createBoard(columns,rows);
-  next  = createBoard(columns,rows);
+  board = createBoard();
+  next  = createBoard();
   // Initialize the game of life    
-  initializeBoard(board,columns,rows,color1,color2,color3,color4)
+  initializeBoard();
 }
 
 function draw() {
   // GENERATE NEW BOARD
-  let boards = new Array;
-  boards.push(board,next);
-  if (paused == 0) { 
-    let boards = generateBoard(board, next, columns, rows);
-    board = boards[0];
-    next =  boards[1];
-  }
+  if (paused == 0) {generateBoard();}
 
   // Logo Drawing
-  jplusplus(columns, rows);
+  jplusplus();
 
   // Drawing with mouse
-  mouseDraw(mouseX, mouseY, w, columns, rows, width, height);
+  mouseDraw();
   
   // Fill cells accordig to generated board
   for (i = 0; i < columns; i++) {
     for (j = 0; j < rows; j++) {
-      if (board[i][j][0] == 2) {
+      if        (board[i][j][0] == 2) {
         fill(color4);
       } else if (board[i][j][0] == 1) {
         fill(color1);
@@ -90,10 +83,10 @@ function draw() {
   //show which cells are going to be activated
   if (mouseX < width  - 2*w && 
       mouseY < height - 2*w &&
-      mouseX > w && 
+      mouseX > w            && 
       mouseY > w) {
-    let mouseCellX = calculateMouseCell(mouseX, w);
-    let mouseCellY = calculateMouseCell(mouseY, w);
+    let mouseCellX = calculateMouseCell(mouseX);
+    let mouseCellY = calculateMouseCell(mouseY);
     fill(color2);
     circle(((mouseCellX) * w), ((mouseCellY) * w ), w);
   }

@@ -1,4 +1,4 @@
-function initializeBoard(board,columns,rows,color1,color2,color3,color4) {
+function initializeBoard() {
     for (i = 0; i < columns; i++) {
       for (j = 0; j < rows; j++) {
         if (i == 0 || j == 0 || i == columns - 1 || j == rows - 1) {

@@ -7,7 +7,7 @@
  
 }
 
-#projects .container {
+#projects .overview {
   width: 70vw;   
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -16,11 +16,11 @@
   padding-bottom: 20px;
 }
 
-#projects .project a:hover {
+#projects .thumb a:hover {
   background-color:  rgb(30,235,105);
 }
 
-#projects .project img {
+#projects .overview .thumb img {
   object-fit: cover;
   width: 35vw;
   height: 35vw;

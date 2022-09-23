@@ -1,8 +1,8 @@
   
-function mouseDraw(mouseX, mouseY, w, columns, rows, width, height){  
+function mouseDraw(){  
   // Allow drawing with mouse
-  let mouseCellX = calculateMouseCell(mouseX, w);
-  let mouseCellY = calculateMouseCell(mouseY, w);
+  let mouseCellX = calculateMouseCell(mouseX);
+  let mouseCellY = calculateMouseCell(mouseY);
 
   //mouse press
   if (mouseIsPressed === true) {
@@ -18,13 +18,10 @@ function mouseDraw(mouseX, mouseY, w, columns, rows, width, height){
     ) {
       // activate clicked cell
       board[mouseCellX][mouseCellY][0] = 1;
-      package = new Array;
-      package.push(mouseCellX,mouseCellY);
-      return 
     }
   }
 }
 
-function calculateMouseCell(mouse, w){
+function calculateMouseCell(mouse){
     return floor((mouse+(0.5*w)) / w);
 }

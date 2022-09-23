@@ -1,8 +1,8 @@
-function jplusplus(columns, rows){
-  xTranslate = -5;
-  yTranslate = -6;
-  let startX = floor(columns / 2) + xTranslate;
-  let startY = floor(rows    / 2) + yTranslate;
+function jplusplus(){
+  xTranslate = 5;
+  yTranslate = 7;
+  let startX = floor(columns / 2) - xTranslate;
+  let startY = floor(rows    / 2) - yTranslate;
   
   // Drawing the "J"
   drawingCellsJ = [
