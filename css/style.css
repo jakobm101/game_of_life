@@ -54,10 +54,10 @@ button:hover {
 
 #menu{
   position: fixed;
-  top:50px;
-  right:0px;
-  z-index: 100;
-  color: white;
+  top:      50px;
+  right:    15px;
+  z-index:  100;
+  color:   white;
   
 }
 

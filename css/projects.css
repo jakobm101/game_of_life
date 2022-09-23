@@ -12,7 +12,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 2vw;
-  row-gap: 2vw;
+  row-gap: 1vw;
   padding-bottom: 20px;
 }
 

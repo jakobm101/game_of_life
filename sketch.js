@@ -47,7 +47,7 @@ function setup() {
   button = createButton("⏵︎ PAUSE");
   button.position(0.5 * w, (rows - 1.5) * w);
   button.size(4 * w, w);
-  button.mousePressed(pausing);
+  button.mousePressed(function(){paused = !paused;});
   paused = 0;
 
   // create 2D arrays
@@ -88,7 +88,8 @@ function draw() {
   }
 
   //HOVER Mouse on grid
-  if (mouseX < width - w && mouseY < height - w && mouseX > w && mouseY > w) {
+  //show which cells are going to be activated
+  if (mouseX < width - 2*w && mouseY < height - 2*w && mouseX > w && mouseY > w) {
     let mCellX = floor((mouseX+(0.5*w)) / w);
     let mCellY = floor((mouseY+(0.5*w)) / w);
     fill(color2);
@@ -96,6 +97,3 @@ function draw() {
   }
 }
 
-function pausing() {
-  paused = !paused;
-}
