@@ -39,6 +39,7 @@ function setup() {
   w = floor(width / resolution);
   // Create p5 canvas
   cnv = createCanvas(windowWidth, windowHeight);
+  // stop calculating when mouse outside canvas
   cnv.mouseOver(loop);
   cnv.mouseOut(noLoop);
   background(color3);

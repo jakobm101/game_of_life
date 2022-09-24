@@ -1,5 +1,5 @@
 function jplusplus(){
-  xTranslate = 5;
+  xTranslate = 1;
   yTranslate = 7;
   let startX = floor(columns / 2) - xTranslate;
   let startY = floor(rows    / 2) - yTranslate;
@@ -28,7 +28,7 @@ function jplusplus(){
 
   // Put plusses on board
   for (cell of drawingCellsPlus){
-    let plusQuantity = 2;
+    let plusQuantity = 0;
     for (plus=0;plus<plusQuantity;plus++){
     board[startX+(plus*(4)) + cell[0]][startY + cell[1]][0] = 2;
   }
