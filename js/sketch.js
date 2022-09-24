@@ -22,7 +22,12 @@ let color2;
 let color3;
 let color4;
 
+
+
 function setup() {
+
+  
+
   // OPTIONS
   
   color1 = color(30, 235, 105);     //green
@@ -33,8 +38,15 @@ function setup() {
   // Calculate cellsize
   w = floor(width / resolution);
   // Create p5 canvas
-  createCanvas(windowWidth, windowHeight);
+  cnv = createCanvas(windowWidth, windowHeight);
+  cnv.mouseOver(loop);
+  cnv.mouseOut(noLoop);
   background(color3);
+
+  if(mouseX > width && mouseY > height ){
+    noLoop();
+  }
+
   //calculate columns and rows
   columns = floor(width  / w);
   rows =    floor(height / w);
