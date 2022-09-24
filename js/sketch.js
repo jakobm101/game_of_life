@@ -43,10 +43,6 @@ function setup() {
   cnv.mouseOut(noLoop);
   background(color3);
 
-  if(mouseX > width && mouseY > height ){
-    noLoop();
-  }
-
   //calculate columns and rows
   columns = floor(width  / w);
   rows =    floor(height / w);
