@@ -23,6 +23,10 @@ canvas {
   display: block;
 }
 
+container {
+  width: auto;
+}
+
 a {
   text-decoration: none;
 }
