@@ -56,6 +56,7 @@ function setup() {
   button.position(0.5 * w, (rows - 1.5) * w);
   button.size(4 * w, w);
   button.mousePressed(function(){paused = !paused;});
+  //button.mouseOver(loop);
 
   // create 2D arrays
   board = createBoard();
