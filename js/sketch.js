@@ -52,10 +52,10 @@ function setup() {
   divToGrid(); 
 
   //Pause button
-  let button = createButton("⏵︎ PAUSE");
-  button.position(0.5 * w, (rows - 1.5) * w);
-  button.size(4 * w, w);
-  button.mousePressed(function(){paused = !paused;});
+  //let button = createButton("⏵︎ PAUSE");
+  //button.position(0.5 * w, (rows - 1.5) * w);
+  //button.size(4 * w, w);
+  //button.mousePressed(function(){paused = !paused;});
   //button.mouseOver(loop);
 
   // create 2D arrays
