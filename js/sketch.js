@@ -30,10 +30,14 @@ function setup() {
 
   // OPTIONS
   
-  color1 = color(30, 235, 105);     //green
-  color2 = color(30, 235, 105, 77); //green alpha
-  color3 = color(249);              //white
-  color4 = color(60);               //black
+  color1 = color(30, 235, 105);     // green
+  color2 = color(30, 235, 105);     // same green
+  // color2 = color(30, 235, 105, 77); // green alpha
+  color3 = color(249);              // white
+  color4 = color(60);               // black
+
+  // lime #B4F855 rgb(180,248,85) lime
+  // red #FF004A rgb(255,0,74)
 
   // Calculate cellsize
   w = floor(width / resolution);
