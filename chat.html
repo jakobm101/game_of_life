@@ -19,7 +19,14 @@
   </head>
   <body>
     <svg>
-      <polygon id="shape" points="200,100 100,300 300,300" fill="blue" />
+      <defs>
+        <linearGradient id="gradient">
+          <stop offset="0%" stop-color="#f3d3bd"></stop>
+          <stop offset="50%" stop-color="#d5c5b8"></stop>
+          <stop offset="100%" stop-color="#b7b6b2"></stop>
+        </linearGradient>
+      </defs>
+      <polygon id="shape" points="100,100 100,300 250,300" fill="url(#gradient)" />
     </svg>
     <script>
       var shape = document.getElementById("shape");
@@ -32,11 +39,17 @@
           points.getItem(2);
         point.x = evt.clientX - svgRect.left;
         point.y = evt.clientY - svgRect.top;
+        if (point === points.getItem(2)) {
+          var dx = point.x - points.getItem(0).x;
+          var dy = point.y - points.getItem(0).y;
+          point.x = points.getItem(0).x + dx / 10;
+          point.y = points.getItem(0).y + dy / 10;
+        }
       }
 
       document.addEventListener("mousemove", updatePoint, false);
       shape.addEventListener("mouseleave", function() {
-        points.getItem(2).x = 300;
+        points.getItem(2).x = 250;
         points.getItem(2).y = 300;
       }, false);
     </script>
