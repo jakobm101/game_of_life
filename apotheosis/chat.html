@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SVG Shape with Moving Corner</title>
+    <link rel="stylesheet" type="text/css" href="css/apo.css">
+  </head>
+  <body>
+    <svg>
+      <defs>
+        <linearGradient id="gradient">
+          <stop offset="0%" stop-color="#f3d3bd"></stop>
+          <stop offset="50%" stop-color="#d5c5b8"></stop>
+          <stop offset="100%" stop-color="#b7b6b2"></stop>
+        </linearGradient>
+      </defs>
+      <polygon class="shape" points="100,100 100,300 250,300" fill="url(#gradient)" />
+    </svg>
+    
+    <script src="js/apo.js"></script>
+
+
+  </body>
+</html>
