@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SVG Triangles</title>
+	<style type="text/css">
+		#svg1, #svg2 {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+	</style>
+</head>
+<body>
+	<svg id="svg1" viewBox="0 0 100 100">
+		<polygon id="triangle1" points="10,90 50,10 90,90" fill="blue" />
+	</svg>
+	<svg id="svg2" viewBox="0 0 100 100">
+		<polygon id="triangle2" points="10,10 50,90 90,10" fill="red" />
+	</svg>
+
+	<script type="text/javascript">
+		// Get the two SVG elements and the two triangle elements
+		var svg1 = document.getElementById("svg1");
+		var svg2 = document.getElementById("svg2");
+		var triangle1 = document.getElementById("triangle1");
+		var triangle2 = document.getElementById("triangle2");
+
+		// Define a function to update the triangles' shapes based on the mouse movement
+		function updateTriangles(event) {
+			// Get the mouse position relative to the SVG elements
+			var svgRect1 = svg1.getBoundingClientRect();
+			var svgRect2 = svg2.getBoundingClientRect();
+			var mouseX1 = event.clientX - svgRect1.left;
+			var mouseY1 = event.clientY - svgRect1.top;
+			var mouseX2 = event.clientX - svgRect2.left;
+			var mouseY2 = event.clientY - svgRect2.top;
+
+			// Update the triangles' points based on the mouse position
+			var point1x = 10 + mouseX1 / 10;
+			var point1y = 90 - mouseY1 / 10;
+			var point2x = 50;
+			var point2y = 10 + mouseY1 / 10;
+			var point3x = 90 - mouseX1 / 10;
+			var point3y = 90 - mouseY1 / 10;
+			triangle1.setAttribute("points", point1x + "," + point1y + " " + point2x + "," + point2y + " " + point3x + "," + point3y);
+
+			var point4x = 10 + mouseX2 / 10;
+			var point4y = 10 + mouseY2 / 10;
+			var point5x = 50;
+			var point5y = 90 - mouseY2 / 10;
+			var point6x = 90 - mouseX2 / 10;
+			var point6y = 10 + mouseY2 / 10;
+			triangle2.setAttribute("points", point4x + "," + point4y + " " + point5x + "," + point5y + " " + point6x + "," + point6y);
+		}
+
+		// Add an event listener to update the triangles' shapes on mouse move
+		document.addEventListener("mousemove", updateTriangles);
+	</script>
+</body>
+</html>
