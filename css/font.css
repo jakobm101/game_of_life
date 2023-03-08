@@ -1,6 +1,13 @@
 @font-face {
-    font-family: 'MyCustomFont';
-    src: url('path/to/MyCustomFont.ttf') format('truetype');
+    font-family: 'plex';
+    src: url('../font/ibmplexsans/IBMPlexSans-Medium.ttf') format('truetype');
     font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'plex';
+    src: url('../font/ibmplexsans/IBMPlexSans-Bold.ttf') format('truetype');
+    font-weight: bold;
     font-style: normal;
   }
