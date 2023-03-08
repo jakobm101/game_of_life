@@ -5,6 +5,11 @@
     height: 100vh;
     width:  100vw;
     z-index: -10;
+
+    background-image: url('circle.svg');
+    background-color: rgb(30,235,105);
+    background-size: 26px 26px;
+    background-repeat: repeat repeat;
 }
 
 #placeholder h3 {

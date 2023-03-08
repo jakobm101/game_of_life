@@ -1,4 +1,5 @@
-  color1 = color(30,235,105);    //green
+  color1 = color(30,235,105);    //green              1EEB69
   color2 = color(30,235,105,77); //green translucent
   color3 = white
   color4 = black
+  color5 = color(60,60,60);      //off black
