@@ -8,9 +8,11 @@
 }
 
 .text {
-  max-width: 600px;
+  max-width: 66%;
+  min-width: 350px;
 }
 
 p {
   color: black;
+  font-size: 3vh;
 }

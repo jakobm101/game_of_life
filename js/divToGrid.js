@@ -10,6 +10,6 @@ function divToGrid(){
 
     // set circly DIV to match size
     // small circle at bottom of canvas
-    document.getElementById("circly").style.width  = (w*2).toString() + "px";
-    document.getElementById("circly").style.height = (w*2).toString() + "px";
+    //document.getElementById("circly").style.width  = (w*2).toString() + "px";
+    //document.getElementById("circly").style.height = (w*2).toString() + "px";
 }
