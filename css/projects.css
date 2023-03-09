@@ -25,14 +25,14 @@
 }
 
 #projects .thumb h3 {
-  display: none;
+  display: none; /* display only on hover*/
   position: absolute;
   text-align: center;
   color:  white;
   padding: 0 10px 4px 10px;
   top: 46%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); /* center the element */
   background-color: rgb(30,235,105);
 }
 
@@ -80,8 +80,25 @@
   height: auto;
 }
 
-#projects .details h2 {
+#projects .projectheading {
   padding-left: 5%;
+  display: flex;
+  flex-wrap: wrap; /* Allows columns to wrap to the next row */
+  white-space: nowrap; /* Prevents line breaks */
+
+}
+
+#projects h2 {
+    display: inline-block;
+    padding: 0 80px 0 0;
+    min-width: 400px;
+}
+
+#projects h3 {
+  display: inline-block;
+  padding:  3% 10px 10px 0px;
+  width: 500px;
+  white-space:normal; /* allows line breaks */
 }
 
 #projects #project3{
