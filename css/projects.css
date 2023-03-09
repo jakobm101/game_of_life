@@ -112,3 +112,32 @@
   width: 100%;
   max-width: 720px;
 }
+
+#projects .project-description {
+  padding: 20px 5% 100px 5%;
+}
+
+#projects .project-description p{
+  column-count: 1;
+}
+
+#projects .project-description p::after {
+  content: "\25CF"; /* Unicode character for black square */
+  display: inline-block;
+  margin-left: 5px;
+  color: rgb(30,235,105);
+}
+
+/* If the window width is greater than 600px, display the letter "p" in two columns */
+@media screen and (min-width: 600px) {
+#projects .project-description p{
+      column-count: 2;
+  }
+}
+
+/* If the window width is greater than 900px, display the letter "p" in three columns */
+@media screen and (min-width: 900px) {
+#projects .project-description p{
+      column-count: 3;
+  }
+}
