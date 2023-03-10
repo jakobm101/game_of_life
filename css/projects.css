@@ -89,20 +89,16 @@
   display: flex;
   flex-wrap: wrap; /* Allows columns to wrap to the next row */
   white-space: nowrap; /* Prevents line breaks */
-
+  
 }
 
 #projects .projectheading h2 {
-    display: inline-block;
-
-    min-width: 400px;
     max-width: 100%;
 }
 
 #projects .projectheading h3 {
-  display: inline-block;
-  padding:  3% 10px 10px 0px;
-  width: 500px;
+  padding:  0% 10px 10px 0px;
+  width: 700px;
   max-width: 100%;
   white-space:normal; /* allows line breaks */
 }
