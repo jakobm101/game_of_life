@@ -105,8 +105,12 @@
 }
 
 #projects #project3{
-  background-color: #222
+  background-color: #222;
 }
+#projects #project3 p{
+  color: white;
+}
+
 
 #projects .video {
   display: block;
