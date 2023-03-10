@@ -89,16 +89,17 @@
   display: flex;
   flex-wrap: wrap; /* Allows columns to wrap to the next row */
   white-space: nowrap; /* Prevents line breaks */
-  
+  padding-top: 40px;
+  padding-left: 5%;
 }
 
 #projects .projectheading h2 {
+    padding-right: 2%;
     max-width: 100%;
 }
 
 #projects .projectheading h3 {
-  padding:  0% 10px 10px 0px;
-  width: 700px;
+  width: 600px;
   max-width: 100%;
   white-space:normal; /* allows line breaks */
 }
