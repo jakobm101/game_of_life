@@ -13,28 +13,6 @@
     background-repeat: repeat repeat;
 }
 
-#placeholder:before {
-  content: '';
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 10px; /* same as image width */
-  height: 100%; /* same as element height */
-  background-color: rgb(30,235,105);
-}
-
-#placeholder:after {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 5px; /* same as element height */
-    width: 100%; /* same as image width */
-    background-color: rgb(30,235,105);
-  }
-
 #placeholder h3 {
     padding: 5%;
 }
