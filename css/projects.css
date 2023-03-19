@@ -36,6 +36,7 @@
   top: 46%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%); /* center the element */
+          transform: translate(-50%, -50%); /* compatibility */
   background-color: rgb(30,235,105);
 }
 

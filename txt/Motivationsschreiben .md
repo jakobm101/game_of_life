@@ -5,8 +5,9 @@ Sehr geehrte Mitglieder des Prüfungsausschusses,
 ## Einleitung
 
 * das Erforschen der Rolle von Kunst, Design und Kultur in der digitalen Transformation spielt für mich seit je her eine bedeutende Rolle.
-- treibt mich an
-- ist ein wichtiger Teil meines Interesses
+
+[//]: #  (treibt mich an)
+[//]: #  (ist ein wichtiger Teil meines Interesses)
 
 * Ich will auf spielerische, kritische und kreative Weise herausfinden, wie Technologien wie IoT, Augmented Reality, Künstliche Intelligenz und Interaktive Räume die Gesellschaft in der Zukunft prägen werden.
 
@@ -22,7 +23,15 @@ Auch Augmented Reality Projekte und innovative Lichtprojektionsprojekte habe ich
 
 ## Gegenwart
 * Gegenwärtig interessiere ich mich dafür meine Grundlagen in Informatik auszubauen und mit Hilfe von Python in die Grundlagen von Machine Learning und Data Visualisation einzutauchen, um mit diesen Technologien Möglichkeiten zu finden, relevante Daten auf überzeugende Art auszuwerten und darzustellen — mit der Hoffnung diese Skills für einen nachhaltigen gesellschaftlichen Wandel einzusetzen.
+* Zum Einen will ich meine Computation Skills als Basis nehmen, um in interdisziplinären Teams besser mit den Tech Profis kommunizieren zu können, da meine bisherige Laufbahn vor allem mein Talent zum grafischen kommunizieren ausgebaut hat.
+* Außerdem werde ich für einfachere Projekte diese Tools auch so nutzen können, um meine Projekte zu bereichern.
 
 ## Zukunft
+* Meine Hoffnung ist, in Zukunft an neuen Kommunikationsmethoden zu forschen. 
+* Wenn mir dieses Glück nicht zu Teil wird, so würde ich es begrüßen bei einen halbwegs interessanten Job zu finden, bei dem ich meine Coding Fähigkeiten weiter ausbauen kann.
 
 ## Schluss jetzt
+* Vielen Dank für die Berücksichtigung meiner Unterlagen. 
+* Es wäre mir eine große Ehre Teil Ihrer renomierten Gemeinschaft zu werden.
+* Mit freundlichen Grüßen 
+* Jakob Malek
