@@ -18,6 +18,7 @@ ein Motivationsschreiben (max. 2 DIN-A4-Seiten) mit Angaben zu den besonderen Gr
 ##
 Themen
 — Volition, Umsetzungskompetenz, Project Management
+— und hier könnte der studiengang mir helfen meine fähigkeiten auszubauen
 
 --->
 
@@ -31,11 +32,10 @@ Ich will auf spielerische, kritische und kreative Weise herausfinden, wie Techno
 **DESIGN** 
 Während meines Kommunikationsdesign Studiums an der Hochschule für angewandte Wissenschaften habe ich wichtige Einsichten für die Vermittlung von Informationen gewonnen. Die Bereiche, die mich da besonders interessiert haben, sind Game Design, Interaction Design, aber auch Branding und Typografie.
 **games** 
-Am Game Design hat mich besonders interessiert, wie Spiele es schaffen eine solch ausgeprägte intrinsische Motivation zu erzeugen, dass Games für so manche Menschen wie harte Drogen ihr Leben im Griff haben. 
-Auch als neues kulturelles Ausdrucksmittel haben mich Games stets fasziniert. Wenn auch bei vielen Spielen die erzählte Geschichte plump ist und einen schlechten Actionfilm der 80er wie ein literarisches Meisterwerk erscheinen lässt. Es gibt eben auch wundervolle Erzählungen im Games Bereich, die durch die Spielmechaniken zu einem eindrucksvollen Erlebnis werden.
+Game Design hat mich besonders fasziniert. Die Verschmelzung von Spielmechanik, sozialer Interaktion und immersivem Design hat das Potenzial, eine überwältigende und allgegenwärtige intrinsische Motivation in Menschen zu erzeugen.
+Auch als neues kulturelles Ausdrucksmittel haben mich Games stets fasziniert. Trotz der Tatsache, dass manche Spielgeschichten als unelegant und minderwertig gegenüber literarischen Meisterwerken empfunden werden, bietet die Spieleindustrie mit ihren komplexen Spielmechanismen auch bemerkenswerte Erzählungen.
 **Advertising & Branding** 
-Kritisch habe ich die Methoden der Werbung studiert, um zu verstehen, wie versucht wird Menschen zum Konsum anzuregen. Wichtig für mich war auch herauszufinden, in welche verschiedenen Milieus unsere Gesellschaft eingeteilt werden kann und wie sich Gruppen von einander durch Stile einerseits abgrenzen wollen und anderseits ein Gefühl der Gemeinsamkeit und Exklusivität erzeugen.
-Das hilft mir dabei, zu wissen, welche Zielgruppe ich mit meiner Botschaft erreichen möchte und die Kommunikation daraufhin zu optimieren. Also auch zur Verhindern, dass meine Kommunikation vor allem die Leute erreicht, die sowieso schon der gleichen Meinung sind, sondern besonders die, die sich noch ein Bild machen oder gar vom Gegenteil überzeugt sind.
+Ein weiterer Schwerpunkt meines Studiums war die kritische Auseinandersetzung mit den Methoden der Werbung. Für mich ist es wichtig zu verstehen, wie die Menschen zum Konsum angeregt werden. Ebenso wichtig ist es, die verschiedenen sozialen Schichten unserer Gesellschaft und die Art und Weise zu verstehen, wie diese Gruppen versuchen, sich durch unterschiedliche Stile zu differenzieren und ein Gefühl der gemeinsamen Exklusivität zu pflegen. Solche Analysen geben mir die Möglichkeit, die Zielgruppe zu erkennen, an die ich meine Botschaft richten möchte, und meine Kommunikationsstrategie entsprechend zu optimieren. So kann ich der Gefahr entgehen, meine Botschaft nur an Personen zu richten, die bereits mit meinen Ansichten übereinstimmen, sondern auch an diejenigen, die sich noch im Prozess der Meinungsbildung befinden oder sogar von einer gegenteiligen Haltung überzeugt sind.
 **Interaction Design** 
 Programmieren musste ich mir selbst beibringen, doch im Studium habe ich die speziellen psychologischen Faktoren die im Bereich der vernetzten Medien verinnerlicht.
 Ich habe gelernt, dass UX eine grundlegende Komponente bei der Gestaltung der Einstellungen und des Verhaltens von Personen gegenüber digitalen Plattformen ist. Eine positive UX führt zu einem höheren Maß an Engagement, während eine negative UX zu Frustration und Desinteresse führen kann. Angesichts der zunehmenden Abhängigkeit von digitalen Plattformen in der modernen Gesellschaft ist es zwingend notwendig, die Bedeutung der UX bei der Gestaltung digitaler Plattformen zu berücksichtigen. Aber auch wie "User":innen mit möglichst hohem Anteil zum Kauf gebracht werden können, durch Optimieren des Funnels.
