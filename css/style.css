@@ -23,9 +23,6 @@ canvas {
   display: block;
 }
 
-container {
-  width: auto;
-}
 
 a {
   text-decoration: none;
@@ -45,6 +42,25 @@ button:hover {
   font-weight: bold;
 }
 
+table {
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+th {
+  vertical-align:text-bottom;
+  text-align: left;
+
+}
+
+td {
+  border-top: 1px dotted rgb(30,235,105);
+  padding-right: 20px;
+  padding-bottom: 45px;
+  vertical-align: top;
+}
+
+
 #title{
   background: RGB(30,235,105);
   position: absolute;
@@ -55,6 +71,32 @@ button:hover {
   font-size: 30px;
   padding: 5px 10px 3px 10px;
 }
+
+.padded {
+  padding: 10px 5% 10px 5%;
+}
+
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flexing {
+  max-width: 600px;
+}
+
+.inline {
+  display: inline;
+}
+
+.noborder {
+  border: none;
+}
+
+.colored {
+  color: rgb(30,235,105);;
+}
+
 
 /* pseudo element — just hides the scripts in the editor */
 .scripts{

@@ -1,5 +1,4 @@
-# notizen
-
+<!---# notizen
 ## Ich will was lernen und umsetzen
 ## ich habe grundlagen
 ## muss nicht alles weltbewegend sein
@@ -11,16 +10,18 @@
 - Arbeitserfahrung
 - Projekte bei Airbus, DLR, KID, CLD
 - Mir fällt sonst nur ein, was ich nicht gemacht habe
+--->
 
 # Motivationsschreiben
 ## einleitung
 Sehr geehrter Prüfungsausschuss,
-Design and Computation ist der perfekte Studiengang, um mich bei meinen Ambitionen zu unterstützen. Ich möchte meine Fähigkeiten aus den Bereichen Design, Informatik und Wissensvermittlung bündeln und zur Rettung des Klimas einsetzen.
+Ich möchte meine Fähigkeiten aus den Bereichen Design, Informatik und Wissensvermittlung bündeln und zur Rettung des Klimas einsetzen. Design and Computation ist der perfekte Studiengang, um mich bei meinen Ambitionen zu unterstützen. 
+
 
 ## Vergangenheit
 - **Design** 
-Während meines Kommunikationsdesign Studiums an der Hochschule für angewandte Wissenschaften habe ich wichtige Einsichten für die Vermittlung von Informationen gewonnen. 
-    - **games** Auch am Game Design hat mich besonders interessiert, wie Spiele es schaffen eine solch ausgeprägte intrinsische Motivation zu erzeugen, dass Games für so manche Menschen wie harte Drogen ihr Leben im Griff haben. 
+Während meines Kommunikationsdesign Studiums an der Hochschule für angewandte Wissenschaften habe ich wichtige Einsichten für die Vermittlung von Informationen gewonnen. Die Bereiche, die mich da besonders interessiert haben, sind Game Design, Interaction Design, aber auch Branding und Typografie.
+    - **games** Am Game Design hat mich besonders interessiert, wie Spiele es schaffen eine solch ausgeprägte intrinsische Motivation zu erzeugen, dass Games für so manche Menschen wie harte Drogen ihr Leben im Griff haben. 
     Auch als neues kulturelles Ausdrucksmittel haben mich Games stets fasziniert. Wenn auch bei vielen Spielen die erzählte Geschichte plump ist und einen schlechten Actionfilm der 80er wie ein literarisches Meisterwerk erscheinen lässt. Es gibt eben auch wundervolle Erzählungen im Games Bereich, die durch die Spielmechaniken zu einem eindrucksvollen Erlebnis werden.
     - **Advertising & Branding** Kritisch habe ich die Methoden der Werbung gelernt, um zu verstehen, wie versucht wird Menschen zum Konsum anzuregen. Diese Form der Beeinflussung habe ich gelernt für mich selbst zu nutzen und die Vorzüge von Gemüse und Genügsamkeit zu verinnerlichen. 
       - **milieu verständnis: stile und coolness**
@@ -30,7 +31,8 @@ Während meines Kommunikationsdesign Studiums an der Hochschule für angewandte 
     - typo
 - **Interaction Design** Programmieren musste ich mir dann doch selbst beibringen, doch im Studium habe ich auch die speziellen psychologischen Faktoren in diesem Bereich verinnerlicht.
     - Etwa die Gestaltung von Interfaces, die eine gelungene Nutzung von möglichst allen Menschen ermöglicht.
-    - UX: xxxx Im web recherchieren, was das bedeutet, lol
+    - UX
+    Ich habe gelernt, dass UX eine grundlegende Komponente bei der Gestaltung der Einstellungen und des Verhaltens von Personen gegenüber digitalen Plattformen ist. Eine positive UX führt zu einem höheren Maß an Engagement, während eine negative UX zu Frustration und Desinteresse führen kann. Angesichts der zunehmenden Abhängigkeit von digitalen Plattformen in der modernen Gesellschaft ist es zwingend notwendig, die Bedeutung der UX bei der Gestaltung digitaler Plattformen zu berücksichtigen.
     - Aber auch wie "User":innen mit möglichst hohem Anteil zum Kauf gebracht werden können, durch Optimieren des Funnels.
 - **ePhil Musikvermittlung** Bei ePhil handelt es sich um eine Kooperation mit den Intendant:innen der Elbphilharmonie, die eine Reihe zur avangardistischen elektronischen Musik veranstaltet haben. Für Diese habe ich im Rahmen eines Kurses diese Musik visuell vermittelt – zusammen mit den Professorinnen Almut Schneider und Heike Grebien und dem Musik-Redakteur Sebastian Reier und weiteren Kurs-Teilnehmer:innen.
 Das war für mich eine besondere Freude, denn in diesem Kontext habe ich mich besonders Wohl gefühlt. Die resultierenden Projekte sind sehr ästhetisch und verbinden Design und Computer auf eine mir naheliegende Weise. Das Nutzen des Raumes als Medium hat mich begeistert. Das zu bespielende Medium war nicht mehr nur ein Objekte, dass auf einem Tisch liegen kann oder auf Bildschirmen flüchtig erscheint. 
