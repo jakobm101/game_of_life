@@ -15,7 +15,8 @@
 # Motivationsschreiben
 ## einleitung
 Sehr geehrter Prüfungsausschuss,
-Ich möchte meine Fähigkeiten aus den Bereichen Design, Informatik und Wissensvermittlung bündeln und zur Rettung des Klimas einsetzen. Design and Computation ist der perfekte Studiengang, um mich bei meinen Ambitionen zu unterstützen. 
+
+Ich will auf spielerische, kritische und kreative Weise herausfinden, wie Technologien wie IoT, Augmented Reality, Künstliche Intelligenz und Interaktive Räume die Gesellschaft gegenwärtig und zukünftig prägen. Dieses Wissen will ich dazu Nutzen um auf eindringliche Art zu zeigen, wie wichtig das Eindämmen der Klimakrise ist. Dafür möchte ich meine Fähigkeiten aus den Bereichen Design, Informatik und Wissensvermittlung bündeln, wofür der Studiengang Design and Computation ein förderliches Umfeld schafft.
 
 
 ## Vergangenheit

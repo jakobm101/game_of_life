@@ -9,7 +9,8 @@ Sehr geehrte Mitglieder des Prüfungsausschusses,
 [//]: #  (treibt mich an)
 [//]: #  (ist ein wichtiger Teil meines Interesses)
 
-* Ich will auf spielerische, kritische und kreative Weise herausfinden, wie Technologien wie IoT, Augmented Reality, Künstliche Intelligenz und Interaktive Räume die Gesellschaft in der Zukunft prägen werden.
+* Ich will auf spielerische, kritische und kreative Weise herausfinden, wie Technologien wie IoT, Augmented Reality, Künstliche Intelligenz und Interaktive Räume die Gesellschaft gegenwärtig und zukünftig prägen.
+    * Dieses Wissen will ich dazu Nutzen um auf eindringliche Art zu zeigen,     wie wichtig das Eindämmen der Klimakrise ist.
 
 * Dafür ist der Studiengang *Design & Computation* genau richtig und deswegen will ich Teil davon werden. 
 
