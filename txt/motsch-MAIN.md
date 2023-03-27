@@ -34,7 +34,18 @@ Während meines Kommunikationsdesign Studiums an der Hochschule für angewandte 
 **games** 
 Game Design hat mich besonders fasziniert. Die Verschmelzung von Spielmechanik, sozialer Interaktion und immersivem Design hat das Potenzial, eine überwältigende und allgegenwärtige intrinsische Motivation in Menschen zu erzeugen.
 Auch als neues kulturelles Ausdrucksmittel haben mich Games stets fasziniert. Trotz der Tatsache, dass manche Spielgeschichten als unelegant und minderwertig gegenüber literarischen Meisterwerken empfunden werden, bietet die Spieleindustrie mit ihren komplexen Spielmechanismen auch bemerkenswerte Erzählungen. 
-*relevanz für d&c* Dieser Bereich hat mir technische und inhaltliche Fähigkeiten vermitteln
+*relevanz für d&c* 
+<!--
+Your game design skills can make you an excellent candidate for the Design & Computation Master program in Berlin for several reasons.
+
+Firstly, game design involves the creative use of technology to create immersive and interactive experiences. This skill set is highly relevant to the Design & Computation program, which focuses on the intersection of design, technology, and computation. As a game designer, you have experience with a variety of digital tools and technologies, including programming languages, game engines, and user interface design, which can be valuable assets in the program.
+
+Secondly, game design also involves the design of complex systems, from game mechanics to narrative structures. These skills are directly applicable to the Design & Computation program, which emphasizes the design of complex, interactive systems. Your experience in game design can provide you with a strong foundation in designing for complex systems, which can be an advantage in the program.
+
+Lastly, game design is a highly interdisciplinary field that draws on a variety of disciplines, including art, psychology, and computer science. Similarly, the Design & Computation program emphasizes interdisciplinary collaboration, bringing together students from a variety of backgrounds to work on complex design challenges. Your experience in game design can provide you with a unique perspective on interdisciplinary collaboration and can help you contribute to the program's collaborative and interdisciplinary environment.
+
+In summary, your game design skills can make you an excellent candidate for the Design & Computation Master program in Berlin, as they demonstrate your proficiency in creative technology use, complex systems design, and interdisciplinary collaboration.
+!-->
 **Advertising & Branding** 
 Ein weiterer Schwerpunkt meines Studiums war die kritische Auseinandersetzung mit den Methoden der Werbung. Für mich ist es wichtig zu verstehen, wie die Menschen zum Konsum angeregt werden. Ebenso wichtig ist es, die verschiedenen sozialen Schichten unserer Gesellschaft und die Art und Weise zu verstehen, wie diese Gruppen versuchen, sich durch unterschiedliche Stile zu differenzieren und ein Gefühl der gemeinsamen Exklusivität zu pflegen. Solche Analysen geben mir die Möglichkeit, die Zielgruppe zu erkennen, an die ich meine Botschaft richten möchte, und meine Kommunikationsstrategie entsprechend zu optimieren. So kann ich der Gefahr entgehen, meine Botschaft nur an Personen zu richten, die bereits mit meinen Ansichten übereinstimmen, sondern auch an diejenigen, die sich noch im Prozess der Meinungsbildung befinden oder sogar von einer gegenteiligen Haltung überzeugt sind.
 **Interaction Design** 
