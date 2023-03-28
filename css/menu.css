@@ -32,7 +32,7 @@ section .item {
       top:0;
     }
 
-.item {
+#menu .item {
       font-size: 25px;
       background: none;
       color: black;

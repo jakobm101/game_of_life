@@ -98,13 +98,17 @@
 
 #projects .projectheading h2 {
     padding-right: 2%;
+    padding-bottom: 3%;
     max-width: 100%;
+
 }
 
 #projects .projectheading h3 {
+  
   width: 600px;
   max-width: 100%;
   white-space:normal; /* allows line breaks */
+
 }
 
 #projects #project3{

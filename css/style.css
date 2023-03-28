@@ -117,6 +117,10 @@ ul {
   color: rgb(30,235,105);;
 }
 
+.dark {
+  background-color: #445451;
+}
+
 
 /* pseudo element — just hides the scripts in the editor */
 .scripts{
