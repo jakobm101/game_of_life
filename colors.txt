@@ -1,5 +1,5 @@
   color1 = color(30,235,105);    //green              1EEB69
   color2 = color(30,235,105,77); //green translucent
 
-dark green    #445451
-
+dark green          #445451
+longtext beige    #EEEDEB
