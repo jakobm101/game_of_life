@@ -2,15 +2,15 @@
 
 
 #projects {
-  width: 100%;
-  min-height: 90vh;
+  width:        100%;
+  min-height:   90vh;
   background:  white;
   color: rgb(30,235,105);
  
 }
 #projects-title {
-  width: 90%;
-  padding: 10px 5% 10px 5%;
+  width:    90%;
+  padding:  10px 5% 10px 5%;
 }
 
 #projects .overview {
@@ -24,16 +24,16 @@
 
 #projects .thumb {
   position: relative;
-  display: inline-block;
+  display:  inline-block;
 }
 
 #projects .thumb h3 {
-  display: none; /* display only on hover*/
-  position: absolute;
+  display:    none; /* display only on hover*/
+  position:   absolute;
   text-align: center;
-  color:  white;
-  padding: 0 10px 4px 10px;
-  top: 46%;
+  color:    white;
+  padding:    0 10px 4px 10px;
+  top:  46%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%); /* center the element */
           transform: translate(-50%, -50%); /* compatibility */
