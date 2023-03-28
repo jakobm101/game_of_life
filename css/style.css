@@ -23,9 +23,25 @@ canvas {
   display: block;
 }
 
+section {
+  width: 90%;
+  height: 90vh;
+  min-height: auto;
+  padding: 10px 5% 10px 5%;
+}
+
+.greenground {
+  background:  RGB(30,235,105);
+  color: white;
+}
 
 a {
   text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: black;
 }
 
 button {
@@ -58,6 +74,10 @@ td {
   padding-right: 20px;
   padding-bottom: 45px;
   vertical-align: top;
+}
+
+ul {
+  list-style-type: none;
 }
 
 
