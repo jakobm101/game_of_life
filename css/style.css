@@ -122,6 +122,9 @@ ul {
   background-color: #445451;
 }
 
+.verticalcenter {
+padding-top: 10vh;
+}
 
 /* pseudo element — just hides the scripts in the editor */
 .scripts{
