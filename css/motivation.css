@@ -1,0 +1,189 @@
+.titel {
+    position: absolute;
+    right:  00px;
+    top:    30px;
+    width:  300px;
+    /*background-color: rgb(57, 189, 178);*/
+    list-style: decimal inside none;
+}
+
+.inhalt {
+    position: fixed;
+    right:  00px;
+    top:    170px;
+    width:  300px;
+    /*background-color: rgb(57, 189, 178);*/
+    list-style: decimal inside none;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 44px;
+    line-height: 1.2;
+    color:  rgb(30,235,105);
+}
+
+.text h1 {
+    font-size: 24px;
+    padding-bottom: 15px;
+}
+
+.titel h2 {
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.inhalt h5 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 200;
+    line-height: 1.2
+}
+
+ol{
+    font-size: 12px;
+    
+}
+
+ol li ol {
+    list-style: lower-greek inside none;
+    padding: 0px 0px 0px 15px;
+}
+
+a {
+    line-height: 1.5;
+    color: black;
+}
+
+.inline {
+    display: inline;
+}
+
+.text {
+    border-left: 5px dotted rgb(30,235,105);
+    max-width: 800px;
+}
+
+light {
+    font-weight: 200;
+    padding-right: 7px;
+}
+
+
+/****/
+
+
+.overview {
+
+    width: 40%; /* adjust as needed */
+    height: 215px;
+
+    margin: 8px 0 0 0;
+    padding: 0px 5px 0 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-transform: lowercase;
+
+    background-image:
+    repeating-linear-gradient(
+      0deg,
+      #dfdfdf,
+      #dfdfdf 1px,
+      transparent 1px,
+      transparent 5px
+    );
+}
+
+.overview p {
+    padding: 5px 0 0 10px;
+
+
+}
+
+.design {
+    display: flex;
+
+}
+.design .theorie{
+    flex: 1;
+    width: 20px;
+    height: 130px;
+
+    padding: 10px;
+    margin: 0px 10px 5px 10px;
+    border: 2px solid black;
+    border-radius: 3px;
+
+    background-image:
+      repeating-linear-gradient(
+        -45deg,
+        #dfdfdf,
+        #dfdfdf 1px,
+        transparent 1px,
+        transparent 5px
+      );
+}
+  
+.design .technologie{
+    background-image:
+      repeating-linear-gradient(
+        45deg,
+        #dfdfdf,
+        #dfdfdf 1px,
+        transparent 1px,
+        transparent 5px
+      );
+}
+
+.design a {
+    font-size: 12px;
+    text-transform: lowercase;
+    font-weight: 100;
+}
+
+
+light {
+    color:  rgb(30,235,105);
+}
+
+
+#cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+#cover img {
+    /* if you want the image to be centered horizontally */
+    margin: 0 auto;
+    /* if you want the image to be centered both horizontally and vertically */
+    display: block;
+    margin: auto;
+  }
+
+#projekte img {
+    width: 40%; /* adjust as needed */
+}
+
+.goal-schema {
+    display: flex;
+    flex-direction: row; /* or column */
+}
+
+#arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    font-size: 60px;
+}
+
+.trennung {
+    border-top: 100px solid rgb(30,235,105);
+    padding-top: 100px;
+}

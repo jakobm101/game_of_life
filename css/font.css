@@ -1,13 +1,20 @@
 @font-face {
     font-family: 'plex';
     src: url('../font/ibmplexsans/IBMPlexSans-Medium.ttf') format('truetype');
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
   }
 
   @font-face {
     font-family: 'plex';
     src: url('../font/ibmplexsans/IBMPlexSans-Bold.ttf') format('truetype');
-    font-weight: bold;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'plex';
+    src: url('../font/ibmplexsans/IBMPlexSans-Light.ttf') format('truetype');
+    font-weight: 200;
     font-style: normal;
   }

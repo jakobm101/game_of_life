@@ -7,9 +7,9 @@
     z-index: -10;
 
     background-image: url('circle.svg');
-    background-color: rgb(30,235,105);
+    background-color: rgb(207, 207, 207);
     background-size: 26px 26px;
-    background-position: 10px 5px;
+    /*background-position: 10px 5px;*/
     background-repeat: repeat repeat;
 }
 
