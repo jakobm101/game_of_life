@@ -17,7 +17,7 @@
 }
 
 #inhalt-title {
-    bottom: 260px;
+    bottom: 280px;
     right:  25px;
     width:  160px;
     position:absolute;
@@ -108,23 +108,19 @@ light {
       transparent 1px,
       transparent 5px
     );
+    min-width: 300px;
 }
 
 .overview p {
     padding: 5px 0 0 10px;
-
-
 }
 
 .design {
     display: flex;
-
 }
+
 .design .theorie{
     flex: 1;
-    width: 20px;
-    height: 130px;
-
     padding: 10px;
     margin: 0px 10px 5px 10px;
     border: 2px solid black;
@@ -156,6 +152,14 @@ light {
     text-transform: lowercase;
     font-weight: 100;
 }
+
+.goal-schema img{
+    min-width: 300px;
+}
+
+#arrow::before {
+    content: "🡢";
+  }
 
 
 light {
@@ -214,10 +218,10 @@ table td:first-child {
 
 #block-graphic {
     position: absolute;
-    bottom: 30px;
-    right: 245px;
-    width: 50px;
-    height: 260px;
+    bottom: -30px;
+    right: 235px;
+    width: 60px;
+    height: 335px;
 
     background-image:
       repeating-linear-gradient(
@@ -227,4 +231,33 @@ table td:first-child {
         transparent 1px,
         transparent 5px
       );
+}
+
+
+footer {
+    background-color: white;
+    background-image:
+      repeating-linear-gradient(
+        -0deg,
+        #dfdfdf,
+        rgb(30,235,105) 0.5px,
+        transparent 1px,
+        transparent 9px
+      );
+}
+
+@media only screen and (max-width: 760px) {
+    #arrow {
+        text-align: center;
+        width: 300px;
+    }
+
+    #arrow::before {
+        content: "🡣";
+      }
+
+    .goal-schema {
+        display: block;
+        
+    }
 }
