@@ -4,16 +4,24 @@
     top:    30px;
     width:  300px;
     /*background-color: rgb(57, 189, 178);*/
-    list-style: decimal inside none;
+
 }
 
 .inhalt {
     position: fixed;
-    right:  00px;
-    top:    170px;
-    width:  300px;
+    right:  10px;
+    bottom: 30px;
+    width:  160px;
     /*background-color: rgb(57, 189, 178);*/
-    list-style: decimal inside none;
+    list-style: decimal inside 0px;
+}
+
+#inhalt-title {
+    bottom: 260px;
+    right:  25px;
+    width:  160px;
+    position:absolute;
+    
 }
 
 p {
@@ -202,4 +210,21 @@ table td:first-child {
     padding-right: 30px;
     min-width: 150px;
     max-width: 17%;
+}
+
+#block-graphic {
+    position: absolute;
+    bottom: 30px;
+    right: 245px;
+    width: 50px;
+    height: 260px;
+
+    background-image:
+      repeating-linear-gradient(
+        -90deg,
+        #dfdfdf,
+        black 1px,
+        transparent 1px,
+        transparent 5px
+      );
 }
