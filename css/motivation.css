@@ -173,6 +173,7 @@ light {
 .goal-schema {
     display: flex;
     flex-direction: row; /* or column */
+    padding-bottom: 15px;
 }
 
 #arrow {
