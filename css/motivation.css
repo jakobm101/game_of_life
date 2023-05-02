@@ -64,8 +64,12 @@ a {
 }
 
 .text {
-    border-left: 5px dotted rgb(30,235,105);
+    border-left: 1px dotted rgb(30,235,105);
     max-width: 800px;
+}
+
+.fullwidth {
+    max-width: 90%;
 }
 
 light {
@@ -187,4 +191,15 @@ light {
 .trennung {
     border-top: 100px solid rgb(30,235,105);
     padding-top: 100px;
+}
+
+
+table td:first-child {
+    color: rgb(30,235,105);
+}
+
+#skills .flexing {
+    padding-right: 30px;
+    min-width: 150px;
+    max-width: 17%;
 }
