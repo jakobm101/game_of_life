@@ -3,6 +3,7 @@
     right:  00px;
     top:    30px;
     width:  300px;
+    background-color: white;
     /*background-color: rgb(57, 189, 178);*/
 
 }
@@ -11,16 +12,20 @@
     position: fixed;
     right:  10px;
     bottom: 30px;
-    width:  160px;
+    width:  110px;
+    height: 260px;
+
     /*background-color: rgb(57, 189, 178);*/
     list-style: decimal inside 0px;
 }
 
 #inhalt-title {
-    bottom: 280px;
+    bottom: 30px;
     right:  25px;
-    width:  160px;
+    width:  110px;
+    height: 295px;
     position:absolute;
+    background-color: rgba(255,255,255,0.6);
     
 }
 
@@ -155,11 +160,9 @@ light {
 
 .goal-schema img{
     min-width: 300px;
+    padding-top: 10px;
 }
 
-#arrow::before {
-    content: "🡢";
-  }
 
 
 light {
@@ -172,14 +175,16 @@ light {
     justify-content: center;
     align-items: center;
     padding-bottom: 45px;
+    max-width: 66%;
   }
   
 #cover img {
-    /* if you want the image to be centered horizontally */
-    margin: 0 auto;
+    /* if you want the image to be centered horizontally 
+    margin: 0 auto; */
     /* if you want the image to be centered both horizontally and vertically */
-    display: block;
     padding: 30px 0 100px 0;
+    max-width: 80%;
+    
   }
 
 #projekte img {
@@ -197,8 +202,13 @@ light {
     justify-content: center;
     align-items: center;
     width: 10%;
-    font-size: 60px;
+    font-size: 40px;
+    font-family: sans-serif;
 }
+
+#arrow::before {
+    content: "\27B3"; 
+  }
 
 .trennung {
     border-top: 100px solid rgb(30,235,105);
@@ -219,10 +229,10 @@ table td:first-child {
 #block-graphic {
     position: absolute;
     bottom: -30px;
-    right: 235px;
-    width: 60px;
-    height: 335px;
-
+    right: 215px;
+    width: 80px;
+    height: 342px;
+    
     background-image:
       repeating-linear-gradient(
         -90deg,
@@ -239,7 +249,7 @@ footer {
     background-image:
       repeating-linear-gradient(
         -0deg,
-        #dfdfdf,
+        white,
         rgb(30,235,105) 0.5px,
         transparent 1px,
         transparent 9px
@@ -251,13 +261,54 @@ footer {
         text-align: center;
         width: 300px;
     }
-
     #arrow::before {
-        content: "🡣";
+        transform: rotate(90deg);
       }
 
     .goal-schema {
         display: block;
         
+    }
+}
+
+@media only screen and (max-width: 500px) {    
+
+    #cover {
+        position: relative;
+        display: block;
+        top: 100px;
+        min-width: 50%;
+    }
+
+    
+    .titel {
+        left: 5%;
+    }
+
+    #block-graphic {
+        display: none;
+    }
+}
+
+@media only screen and (max-height: 500px) {    
+
+    
+    #cover {
+        position: relative;
+        display: block;
+        top: 100px;
+        min-width: 50vh;
+    }
+
+    #cover img{
+        width: 70%;
+    }
+
+    .titel {
+        left: 5%;
+    }
+
+    #block-graphic {
+        display: none;
     }
 }
