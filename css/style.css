@@ -44,6 +44,11 @@ a:hover {
   color: black;
 }
 
+p a {
+  color: rgb(30,235,105);
+  text-decoration: solid;
+}
+
 button {
   color:             rgb(30,235,105);
   background-color: rgba(255,255,255,.7);
@@ -86,8 +91,10 @@ ul {
 }
 
 
+
+
 #title{
-  background: RGB(30,235,105);
+  background:  rgb(30,235,105);
   position: absolute;
   top:50%;
   right:0;

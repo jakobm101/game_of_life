@@ -27,6 +27,7 @@
 p {
     font-size: 18px;
     line-height: 1.6;
+    padding-bottom: 12px;
 }
 
 h1 {
@@ -311,4 +312,55 @@ footer {
     #block-graphic {
         display: none;
     }
+}
+
+.project .text {
+    padding: 4% 4% 7% 5%;
+}
+
+.project .text h3 {
+    font-size: 24px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.project .text p:last-child::after {
+    content: "\25CF"; /* Unicode character for black square */
+    display: inline-block;
+    margin-left: 5px;
+    color: rgb(30,235,105);
+  }
+
+.projectheading h3 {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+#thesis {
+    display: block;
+    color: rgb(30,235,105);
+    text-transform: uppercase;
+    border: 1px rgb(30,235,105) solid;
+    border-left: none;
+    border-right: none;
+    padding: 5px 0 5px 5px;
+    margin: 50px 0 50px 0;
+}
+
+#thesis:hover {
+    color: black;
+    background-color: rgb(30,235,105);
+
+}
+
+#morse {
+    position: fixed;
+    color:  rgb(30,235,105);
+    font-size: 8px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    transform-origin: top right;
+    transform: rotate(-90deg);
+    right: 30px;
+    top: 15%;
 }
